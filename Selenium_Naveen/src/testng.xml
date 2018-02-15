@@ -1,0 +1,32 @@
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNg Sessin By Naveen" >
+
+  <test name="Different TestNG feature test" >
+    <classes>
+    
+       <class name="com.test.ExceptionTimeOutTest" />
+        <class name="com.test.GoogleTest" />
+         <class name="com.test.InvocationCountTest" />
+          <class name="com.test.MvnRepoTest" />
+           <class name="com.test.TestNgBasics" />
+            <class name="com.test.TestNgFeatures" />
+       
+    </classes>
+  </test>
+</suite> -->
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Yahoo login Functionality Test">
+
+	<test name="Yahoo App Test">
+	
+	<parameter name="browser" value="chrome"/>
+	<parameter name="url" value="https://login.yahoo.com"/>
+	<parameter name="emailid" value="test1@yahoo.com"/>
+	
+		<classes>
+			<class name="com.parameters.ParameterTest" />
+		</classes>
+	</test>
+</suite>
